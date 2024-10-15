@@ -19,8 +19,9 @@ Me encanta la bash!!
 ```
 
 Y `file2.txt` debe permanecer vacío.
-
-#### PROPUESTA EJER 1
+```diff
++ #### PROPUESTA EJER 1
+```
 ```bash
 mkdir foo
 cd foo
@@ -46,8 +47,9 @@ Donde `file1.txt` y `file2.txt` deben contener el siguiente texto:
 ```bash
 Me encanta la bash!!
 ```
-
-#### PROPUESTA EJER 2
+```diff
++ #### PROPUESTA EJER 2
+```
 ```bash
 cp dummy/file1.txt dummy/file2.txt ; mv dummy/file2.txt empty/
 ```
