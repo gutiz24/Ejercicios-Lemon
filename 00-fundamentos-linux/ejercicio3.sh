@@ -12,7 +12,7 @@ mkdir dummy ; mkdir empty
 touch dummy/{file1.txt,file2.txt}
 echo $WORD > dummy/file1.txt
 
-cp dummy/file1.txt dummy/file2.txt
+cat dummy/file1.txt > dummy/file2.txt
 mv dummy/file2.txt empty/
 
 

@@ -51,7 +51,8 @@ Me encanta la bash!!
 + #### PROPUESTA EJER 2
 ```
 ```bash
-cp dummy/file1.txt dummy/file2.txt ; mv dummy/file2.txt empty/
+cp cat file1.txt > dummy/file2.txt
+mv dummy/file2.txt empty/
 ```
 
 ### 3. Crear un script de bash que agrupe los pasos de los ejercicios anteriores y además permita establecer el texto de file1.txt alimentándose como parámetro al invocarlo
