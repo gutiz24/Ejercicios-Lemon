@@ -1,0 +1,488 @@
+[
+  {
+    "title": "A Lover's Complaint"
+  },
+  {
+    "title": "Spring and Winter ii"
+  },
+  {
+    "title": "Spring and Winter i"
+  },
+  {
+    "title": "Spring"
+  },
+  {
+    "title": "Orpheus with his Lute Made Trees"
+  },
+  {
+    "title": "Blow, Blow, Thou Winter Wind"
+  },
+  {
+    "title": "Under the Greenwood Tree"
+  },
+  {
+    "title": "Winter"
+  },
+  {
+    "title": "Sonnet 1: From fairest creatures we desire increase"
+  },
+  {
+    "title": "Sonnet 2: When forty winters shall besiege thy brow"
+  },
+  {
+    "title": "Sonnet 3: Look in thy glass and tell the face thou viewest"
+  },
+  {
+    "title": "Sonnet 4: Unthrifty loveliness, why dost thou spend"
+  },
+  {
+    "title": "Sonnet 5: Those hours, that with gentle work did frame"
+  },
+  {
+    "title": "Sonnet 6: Then let not winter's ragged hand deface"
+  },
+  {
+    "title": "Sonnet 7: Lo! in the orient when the gracious light"
+  },
+  {
+    "title": "Sonnet 8: Music to hear, why hear'st thou music sadly?"
+  },
+  {
+    "title": "Sonnet 9: Is it for fear to wet a widow's eye"
+  },
+  {
+    "title": "Sonnet 10: For shame! deny that thou bear'st love to any"
+  },
+  {
+    "title": "Sonnet 11: As fast as thou shalt wane, so fast thou grow'st"
+  },
+  {
+    "title": "Sonnet 12: When I do count the clock that tells the time"
+  },
+  {
+    "title": "Sonnet 13: O! that you were your self; but, love you are"
+  },
+  {
+    "title": "Sonnet 14: Not from the stars do I my judgement pluck"
+  },
+  {
+    "title": "Sonnet 15: When I consider every thing that grows"
+  },
+  {
+    "title": "Sonnet 16: But wherefore do not you a mightier way"
+  },
+  {
+    "title": "Sonnet 17: Who will believe my verse in time to come"
+  },
+  {
+    "title": "Sonnet 18: Shall I compare thee to a summer's day?"
+  },
+  {
+    "title": "Sonnet 19: Devouring Time, blunt thou the lion's paws"
+  },
+  {
+    "title": "Sonnet 20: A woman's face with nature's own hand painted"
+  },
+  {
+    "title": "Sonnet 21: So is it not with me as with that Muse"
+  },
+  {
+    "title": "Sonnet 22: My glass shall not persuade me I am old"
+  },
+  {
+    "title": "Sonnet 23: As an unperfect actor on the stage"
+  },
+  {
+    "title": "Sonnet 24: Mine eye hath play'd the painter and hath stell'd"
+  },
+  {
+    "title": "Sonnet 25: Let those who are in favour with their stars"
+  },
+  {
+    "title": "Sonnet 26: Lord of my love, to whom in vassalage"
+  },
+  {
+    "title": "Sonnet 27: Weary with toil, I haste me to my bed"
+  },
+  {
+    "title": "Sonnet 28: How can I then return in happy plight"
+  },
+  {
+    "title": "Sonnet 29: When in disgrace with fortune and men's eyes"
+  },
+  {
+    "title": "Sonnet 30: When to the sessions of sweet silent thought"
+  },
+  {
+    "title": "Sonnet 31: Thy bosom is endeared with all hearts"
+  },
+  {
+    "title": "Sonnet 32: If thou survive my well-contented day"
+  },
+  {
+    "title": "Sonnet 33: Full many a glorious morning have I seen"
+  },
+  {
+    "title": "Sonnet 34: Why didst thou promise such a beauteous day"
+  },
+  {
+    "title": "Sonnet 35: No more be griev'd at that which thou hast done"
+  },
+  {
+    "title": "Sonnet 36: Let me confess that we two must be twain"
+  },
+  {
+    "title": "Sonnet 37: As a decrepit father takes delight"
+  },
+  {
+    "title": "Sonnet 38: How can my muse want subject to invent"
+  },
+  {
+    "title": "Sonnet 39: O! how thy worth with manners may I sing"
+  },
+  {
+    "title": "Sonnet 40: Take all my loves, my love, yea take them all"
+  },
+  {
+    "title": "Sonnet 41: Those pretty wrongs that liberty commits"
+  },
+  {
+    "title": "Sonnet 42: That thou hast her it is not all my grief"
+  },
+  {
+    "title": "Sonnet 43: When most I wink, then do mine eyes best see"
+  },
+  {
+    "title": "Sonnet 44: If the dull substance of my flesh were thought"
+  },
+  {
+    "title": "Sonnet 45: The other two, slight air, and purging fire"
+  },
+  {
+    "title": "Sonnet 46: Mine eye and heart are at a mortal war"
+  },
+  {
+    "title": "Sonnet 47: Betwixt mine eye and heart a league is took"
+  },
+  {
+    "title": "Sonnet 48: How careful was I when I took my way"
+  },
+  {
+    "title": "Sonnet 49: Against that time, if ever that time come"
+  },
+  {
+    "title": "Sonnet 50: How heavy do I journey on the way"
+  },
+  {
+    "title": "Sonnet 51: Thus can my love excuse the slow offence"
+  },
+  {
+    "title": "Sonnet 52: So am I as the rich, whose blessed key"
+  },
+  {
+    "title": "Sonnet 53: What is your substance, whereof are you made"
+  },
+  {
+    "title": "Sonnet 54: O! how much more doth beauty beauteous seem"
+  },
+  {
+    "title": "Sonnet 55: Not marble, nor the gilded monuments"
+  },
+  {
+    "title": "Sonnet 56: Sweet love, renew thy force; be it not said"
+  },
+  {
+    "title": "Sonnet 57: Being your slave what should I do but tend"
+  },
+  {
+    "title": "Sonnet 58: That god forbid, that made me first your slave"
+  },
+  {
+    "title": "Sonnet 59: If there be nothing new, but that which is"
+  },
+  {
+    "title": "Sonnet 60: Like as the waves make towards the pebbled shore"
+  },
+  {
+    "title": "Sonnet 61: Is it thy will, thy image should keep open"
+  },
+  {
+    "title": "Sonnet 62: Sin of self-love possesseth all mine eye"
+  },
+  {
+    "title": "Sonnet 63: Against my love shall be as I am now"
+  },
+  {
+    "title": "Sonnet 64: When I have seen by Time's fell hand defac'd"
+  },
+  {
+    "title": "Sonnet 65: Since brass, nor stone, nor earth, nor boundless sea"
+  },
+  {
+    "title": "Sonnet 66: Tired with all these, for restful death I cry"
+  },
+  {
+    "title": "Sonnet 67: Ah! wherefore with infection should he live"
+  },
+  {
+    "title": "Sonnet 68: Thus is his cheek the map of days outworn"
+  },
+  {
+    "title": "Sonnet 69: Those parts of thee that the world's eye doth view"
+  },
+  {
+    "title": "Sonnet 70: That thou art blam'd shall not be thy defect"
+  },
+  {
+    "title": "Sonnet 71: No longer mourn for me when I am dead"
+  },
+  {
+    "title": "Sonnet 72: O! lest the world should task you to recite"
+  },
+  {
+    "title": "Sonnet 73: That time of year thou mayst in me behold"
+  },
+  {
+    "title": "Sonnet 74: But be contented: when that fell arrest"
+  },
+  {
+    "title": "Sonnet 75: So are you to my thoughts as food to life"
+  },
+  {
+    "title": "Sonnet 76: Why is my verse so barren of new pride"
+  },
+  {
+    "title": "Sonnet 77: Thy glass will show thee how thy beauties wear"
+  },
+  {
+    "title": "Sonnet 78: So oft have I invoked thee for my Muse"
+  },
+  {
+    "title": "Sonnet 79: Whilst I alone did call upon thy aid"
+  },
+  {
+    "title": "Sonnet 80: O! how I faint when I of you do write"
+  },
+  {
+    "title": "Sonnet 81: Or I shall live your epitaph to make"
+  },
+  {
+    "title": "Sonnet 82: I grant thou wert not married to my Muse"
+  },
+  {
+    "title": "Sonnet 83: I never saw that you did painting need"
+  },
+  {
+    "title": "Sonnet 84: Who is it that says most, which can say more"
+  },
+  {
+    "title": "Sonnet 85: My tongue-tied Muse in manners holds her still"
+  },
+  {
+    "title": "Sonnet 86: Was it the proud full sail of his great verse"
+  },
+  {
+    "title": "Sonnet 87: Farewell! thou art too dear for my possessing"
+  },
+  {
+    "title": "Sonnet 88: When thou shalt be dispos'd to set me light"
+  },
+  {
+    "title": "Sonnet 89: Say that thou didst forsake me for some fault"
+  },
+  {
+    "title": "Sonnet 90: Then hate me when thou wilt; if ever, now"
+  },
+  {
+    "title": "Sonnet 91: Some glory in their birth, some in their skill"
+  },
+  {
+    "title": "Sonnet 92: But do thy worst to steal thyself away"
+  },
+  {
+    "title": "Sonnet 93: So shall I live, supposing thou art true"
+  },
+  {
+    "title": "Sonnet 94: They that have power to hurt, and will do none"
+  },
+  {
+    "title": "Sonnet 95: How sweet and lovely dost thou make the shame"
+  },
+  {
+    "title": "Sonnet 96: Some say thy fault is youth, some wantonness"
+  },
+  {
+    "title": "Sonnet 97: How like a winter hath my absence been"
+  },
+  {
+    "title": "Sonnet 98: From you have I been absent in the spring"
+  },
+  {
+    "title": "Sonnet 99: The forward violet thus did I chide"
+  },
+  {
+    "title": "Sonnet 100: Where art thou Muse that thou forget'st so long"
+  },
+  {
+    "title": "Sonnet 101: O truant Muse what shall be thy amends"
+  },
+  {
+    "title": "Sonnet 102: My love is strengthen'd, though more weak in seeming"
+  },
+  {
+    "title": "Sonnet 103: Alack! what poverty my Muse brings forth"
+  },
+  {
+    "title": "Sonnet 104: To me, fair friend, you never can be old"
+  },
+  {
+    "title": "Sonnet 105: Let not my love be call'd idolatry"
+  },
+  {
+    "title": "Sonnet 106: When in the chronicle of wasted time"
+  },
+  {
+    "title": "Sonnet 107: Not mine own fears, nor the prophetic soul"
+  },
+  {
+    "title": "Sonnet 108: What's in the brain, that ink may character"
+  },
+  {
+    "title": "Sonnet 109: O! never say that I was false of heart"
+  },
+  {
+    "title": "Sonnet 110: Alas! 'tis true, I have gone here and there"
+  },
+  {
+    "title": "Sonnet 111: O! for my sake do you with Fortune chide"
+  },
+  {
+    "title": "Sonnet 112: Your love and pity doth the impression fill"
+  },
+  {
+    "title": "Sonnet 113: Since I left you, mine eye is in my mind"
+  },
+  {
+    "title": "Sonnet 114: Or whether doth my mind, being crown'd with you"
+  },
+  {
+    "title": "Sonnet 115: Those lines that I before have writ do lie"
+  },
+  {
+    "title": "Sonnet 116: Let me not to the marriage of true minds"
+  },
+  {
+    "title": "Sonnet 117: Accuse me thus: that I have scanted all"
+  },
+  {
+    "title": "Sonnet 118: Like as, to make our appetite more keen"
+  },
+  {
+    "title": "Sonnet 119: What potions have I drunk of Siren tears"
+  },
+  {
+    "title": "Sonnet 120: That you were once unkind befriends me now"
+  },
+  {
+    "title": "Sonnet 121: 'Tis better to be vile than vile esteem'd"
+  },
+  {
+    "title": "Sonnet 122: Thy gift, thy tables, are within my brain"
+  },
+  {
+    "title": "Sonnet 123: No, Time, thou shalt not boast that I do change"
+  },
+  {
+    "title": "Sonnet 124: If my dear love were but the child of state"
+  },
+  {
+    "title": "Sonnet 125: Were't aught to me I bore the canopy"
+  },
+  {
+    "title": "Sonnet 126: O thou, my lovely boy, who in thy power"
+  },
+  {
+    "title": "Sonnet 127: In the old age black was not counted fair"
+  },
+  {
+    "title": "Sonnet 128: How oft when thou, my music, music play'st"
+  },
+  {
+    "title": "Sonnet 129: The expense of spirit in a waste of shame"
+  },
+  {
+    "title": "Sonnet 130: My mistress' eyes are nothing like the sun"
+  },
+  {
+    "title": "Sonnet 131: Thou art as tyrannous, so as thou art"
+  },
+  {
+    "title": "Sonnet 132: Thine eyes I love, and they, as pitying me"
+  },
+  {
+    "title": "Sonnet 133: Beshrew that heart that makes my heart to groan"
+  },
+  {
+    "title": "Sonnet 134: So, now I have confess'd that he is thine"
+  },
+  {
+    "title": "Sonnet 135: Whoever hath her wish, thou hast thy 'Will,'"
+  },
+  {
+    "title": "Sonnet 136: If thy soul check thee that I come so near"
+  },
+  {
+    "title": "Sonnet 137: Thou blind fool, Love, what dost thou to mine eyes"
+  },
+  {
+    "title": "Sonnet 138: When my love swears that she is made of truth"
+  },
+  {
+    "title": "Sonnet 139: O! call not me to justify the wrong"
+  },
+  {
+    "title": "Sonnet 140: Be wise as thou art cruel; do not press"
+  },
+  {
+    "title": "Sonnet 141: In faith I do not love thee with mine eyes"
+  },
+  {
+    "title": "Sonnet 142: Love is my sin, and thy dear virtue hate"
+  },
+  {
+    "title": "Sonnet 143: Lo, as a careful housewife runs to catch"
+  },
+  {
+    "title": "Sonnet 144: Two loves I have of comfort and despair"
+  },
+  {
+    "title": "Sonnet 145: Those lips that Love's own hand did make"
+  },
+  {
+    "title": "Sonnet 146: Poor soul, the centre of my sinful earth"
+  },
+  {
+    "title": "Sonnet 147: My love is as a fever longing still"
+  },
+  {
+    "title": "Sonnet 148: O me! what eyes hath Love put in my head"
+  },
+  {
+    "title": "Sonnet 149: Canst thou, O cruel! say I love thee not"
+  },
+  {
+    "title": "Sonnet 150: O! from what power hast thou this powerful might"
+  },
+  {
+    "title": "Sonnet 151: Love is too young to know what conscience is"
+  },
+  {
+    "title": "Sonnet 152: In loving thee thou know'st I am forsworn"
+  },
+  {
+    "title": "Sonnet 153: Cupid laid by his brand and fell asleep"
+  },
+  {
+    "title": "Sonnet 154: The little Love-god lying once asleep"
+  }
+]
