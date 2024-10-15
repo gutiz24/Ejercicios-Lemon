@@ -51,7 +51,7 @@ Me encanta la bash!!
 + #### PROPUESTA EJER 2
 ```
 ```bash
-cp cat file1.txt > dummy/file2.txt
+cat dummy/file1.txt > dummy/file2.txt
 mv dummy/file2.txt empty/
 ```
 
