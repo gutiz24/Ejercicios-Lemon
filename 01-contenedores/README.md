@@ -28,8 +28,24 @@ Nota: como has podido comprobar, el directorio `lemoncode-challenge` tiene dos c
 
 ¡Añade varios registros!
 
-
+```diff
++ ### PROPUESTA EJER 1
+```
+2. Dockerización del Backend y del Frontend. (dockerfile)
+3. Crear un contenedor de mongo con un volumen (db_mongo) `docker run --name some-mongo -v db_mongo:/data/db -p 27017:27017 -d mongo:8.0.3`
+4. Añadir registros en el mongo con el cliente mongo
 
 ## Ejercicio 2
 
 Ahora que ya tienes la aplicación del ejercicio 1 dockerizada, utiliza Docker Compose para lanzar todas las piezas a través de este. Debes plasmar todo lo necesario para que esta funcione como se espera: la red que utilizan, el volumen que necesita MongoDB, las variables de entorno, el puerto que expone la web y la API. Además debes indicar qué comandos utilizarías para levantar el entorno, pararlo y eliminarlo.
+
+```diff
++ ### PROPUESTA EJER 2
+```
+1. Crear el docker compose con todos los requerimientos.
+2. El volumen es externo donde anteriormente se crearon registron en mongo
+3. El enviroment en el repo es `env.template` para seguir las buenas prácticas. Cambiar nombre a `.env` para desarrollo local
+
+4. Comando levantar entorno docker compose: `docker compose up -d --build`
+5. Comando parar docker compose: `docker compose stop` 
+6. Comando eliminar docker compose: `docker compose down`

@@ -1,4 +1,9 @@
 01-contenedores/node-stack/backend/node_modules
 01-contenedores/node-stack/backend/.devcontainer
 
+01-contenedores/node-stack/backend/.env
+01-contenedores/node-stack/backend/dist/
+
+01-contenedores/node-stack/.env
+
 01-contenedores/node-stack/frontend/node_modules
