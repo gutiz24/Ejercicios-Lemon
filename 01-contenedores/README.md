@@ -31,9 +31,31 @@ Nota: como has podido comprobar, el directorio `lemoncode-challenge` tiene dos c
 ```diff
 + ### PROPUESTA EJER 1
 ```
-2. Dockerización del Backend y del Frontend. (dockerfile)
+1. Crear la red llamada `lemoncode.challenge` con comando: `docker network create lemoncode-challenge`
+2. Crear el volumen `db_mongo` con comando: `docker volume create db_mongo`
 3. Crear un contenedor de mongo con un volumen (db_mongo) `docker run --name some-mongo -v db_mongo:/data/db -p 27017:27017 -d mongo:8.0.3`
-4. Añadir registros en el mongo con el cliente mongo
+4. Creara base de datos `TopicstoreDb` y colección `Topics`. Añadir registros en mongo con el cliente "MongoDbCompass": 
+```json 
+[
+   {"Name": "Contenedores"},
+  {"Name": "Kubernetes"},
+  {"Name": "Docker"}
+] 
+```
+<p aling="center">
+<img src="./img/Registros_Mongo.png" style="width:50%; height:auto;">
+</p>
+
+5. Eliminar contenedor para no tener expuestos los puertos y añadir la red: `docker stop some-mongo` y `docker rm some-mongo`
+6. Crearlo de nuevo con la red añadida: `docker run --name some-mongo -v db_mongo:/data/db --network=lemoncode-challenge -d mongo:8.0.3`
+7. Dockerización del Backend: `docker build --tag backend-node .`
+8. Dockerización del frontend: `docker build --tag frontend-node .`
+9. Correr docker backend con variables y red añadida: `docker run -d --name topics-api --network=lemoncode-challenge -e PORT=5000 -e HOST='topics-api' -e DATABASE_URL='mongodb://some-mongo:27017' -e DATABASE_NAME='TopicstoreDb' backend-node`
+10. Correr docker frontend con variables,red y puerto 8080 expuesto: `docker run -d --name frontend --network=lemoncode-challenge -p 8080:3000 -e API_URI='http://topics-api:5000/api/topics' frontend-node`
+11. Resultado de la operación:
+<p aling="center">
+<img src="./img/Resultado_final.png" style="width:50%; height:auto;">
+</p>
 
 ## Ejercicio 2
 
