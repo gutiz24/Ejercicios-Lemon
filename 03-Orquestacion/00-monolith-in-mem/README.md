@@ -24,7 +24,7 @@ Crear un `LoadBalancer service` para acceder al `Deployment` anteriormente cread
 ```diff
 + ### PROPUESTA EJERCICIO DE MONOLITH-IN-MEM
 ```
-1. Crear el fichero YAML (deployment.yaml) con variables de entorno agregadas
-2. Crear un servicio (service.yaml) de tipo NodePort en kubernetes para actue como loadbalancer
-3. se sigue la guía de minikube para acceder a la todo-app `minikube service <service-name> --url`
-
+1. Crear el fichero YAML `(deployment.yaml)` con variables de entorno agregadas
+2. Crear un servicio `(service.yaml)` de tipo LoadBalancer en kubernetes para actue como loadbalancer
+3. se sigue la guía de minikube para acceder a la todo-app `minikube service myapp --url`
+4. Comprobar el funcionamiento dirigiendose al `External-IP` proporcionado por el Loadbalancer a través de un navegador. En este caso: `localhost:3000`

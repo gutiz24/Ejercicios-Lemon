@@ -4,6 +4,22 @@
 
 Construir los distintos recursos de Kubernetes para generar un clúster, como el de la siguiente imagen:
 
+```diff
++ ### PROPUESTA EJERCICIO DE MONOLITH-IN-MEM
+```
+
+1. Creación de un PersistentVolume estático en `PersistentVolume.yaml`
+2. Creación de un PersistentVolumeClaim en `PersistentVolumeClaim.yaml`, únicamente para probar las configuraciones para enlazarlo con el PersistentVolume. Este mismo se usará como plantilla en le StatefulSet
+3. Creación del sericio de tipo "Cluster IP" en `Service.yaml` para la comunicación entre el Deployment del la app Todo y del Statefulset
+4. Creación de los confiMap. para esta operación se hizo de 2 formas con un manifiesto YAML para las variables de Postgres `(ConfigMapPostgres.yaml)` y con comando "create" de kubectel de un fichero `.env.example` con el comando: `kubectl create configmap todo-app-variables --from-env-file=.env.example`. 
+NOTA: en la asiganciones de valores se debe tener en cuenta que los valores de conexión coincidan: "POSTGRES_USER" y "DB_USER=postgres". Y en la varible HOST del "todo-app" se debe poner el nombre del servicio creado que tiene un DNS para la comunicaicón.
+5. Creación del StatefulSet en `StatefulSet.yaml`. Consideraciones: el volumen que se debe mapear debe ser donde se guarda los datos en postgres `mountPath: /var/lib/postgresql/data`. y el `volumeClaimTemplates` debe ser válido para que encaje con un PersistentVolume, se usa el `PersistentVolumeClaim.yaml` como referencia.
+6. Desde dentro del pod ejecutar el script de generación de datos en `docker-entrypoint-initdb.d/todos_db.sql` con el comando `psql -U postgres < todos_db.sql`
+7. Deploy del todo-app en `deploymen-todo-app.yaml` se debe añadir en el deploy la referencia al configmap creado con comanado en el paso "4"
+8. Creación del servicio LoadBalancer similar la ejercicio anterior en `00-monolith-in-mem/service`
+9. se sigue la guía de minikube para acceder a la todo-app `minikube service myapp --url`
+10. Comprobar el funcionamiento dirigiendose al `External-IP` proporcionado por el Loadbalancer a través de un navegador. En este caso: `localhost:3000`
+
 ### Para ello seguir los siguientes pasos:
 
 ### Paso 1. Crear una capa de persistencia de datos
@@ -61,7 +77,3 @@ En su lugar, hay varias alternativas que podríamos usar:
 1. En lugar de usar una imagen "cocinada" que es idéntica a la original pero con un fichero añadido podríamos pasar este fichero a través de un volumen (poner el fichero en un ConfigMap y montar el ConfigMap en el contenedor).
 2. Usar un job de Kubernetes que ejecutase el script. Este job podría ejecutar un contenedor que usase el cliente de la bbdd (psql en nuestro caso) y que lanzase el script contra la bbdd. El script se lo pasaríamos mediante un volumen usando un ConfigMap.
 3. Usar un _init container_ en el cliente (**no en la base de datos**). No podemos usar un _init container_ en el pod de la bbdd porque cuando se ejecutaría este _init container_ no se estaría ejecutando la bbdd. No obstante usar un _init container_ en el cliente (el pod de la app) no es una buena idea por dos motivos: el primero es que si el cliente se levanta antes que la bbdd,  el _init container_ no se podrá ejecutar, dará error y el pod quedará en `Init:Error`. El segundo es que este _init container_ se ejecutaría cada vez que se crease el pod de la app (si se escala horizontalmente cada pod tendrá su propio _init container_), por  lo que el script debe estar preparado para poder ser ejecutado N veces en paralelo y ser idempotente (lo que añade una complejidad inecesaria).
-
-```diff
-+ ### PROPUESTA EJERCICIO DE MONOLITH-IN-MEM
-```

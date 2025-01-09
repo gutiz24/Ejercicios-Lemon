@@ -28,7 +28,7 @@ spec:
   - metadata:
       name: postgresdb
     spec:
-      storageClassName: monolith
+      storageClassName: monolith-db
       accessModes: [ "ReadWriteOnce" ]
       resources:
         requests:

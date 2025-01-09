@@ -3,10 +3,10 @@ kind: PersistentVolume
 metadata:
   name: pv-postgres
 spec:
-  storageClassName: monolith
+  storageClassName: monolith-db
   accessModes:
     - ReadWriteOnce
   capacity:
     storage: 5Gi
   hostPath:
-    path: /data/pv-postgres/
+    path: /data/postgres-data/
