@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: myapp
+        image: lemoncodersbc/lc-todo-monolith:v5-2024
+        env:
+          - name: NODE_ENV
+            value: production
+          - name: PORT
+            value: "3000"
+        ports:
+          - containerPort: 3000

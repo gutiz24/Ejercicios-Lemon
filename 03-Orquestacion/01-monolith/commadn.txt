@@ -1,0 +1,9 @@
+kubectl create configmap <CONFIGMAP_NAME> --from-file=/location/file.yaml
+
+kubectl run bb --image busybox --rm --restart=Never -it -- /bin/sh
+
+psql postgresql://username:password@host:26257/database_name
+
+psql postgresql://postgres:postgres@postgres-svc:5432/todos_db
+
+ kubectl exec -i postgres-0 -- psql -U postgres < todos_db.sql
