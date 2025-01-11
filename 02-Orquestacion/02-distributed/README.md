@@ -9,7 +9,7 @@ Construir los distintos recursos de Kubernetes para generar un clúster, como el
 ```
 1. Creación de deployment y servicio del "todo-front" en `todo-front.yaml` para ello se juntaron en un solo yaml el `deployment` y `service` de tipo ClusterIP
 2. Creación de deployment y servicio del "todo-front" en `todo-api.yaml` para ello se juntaron en un solo yaml el `deployment` y `service` de tipo ClusterIP
-3. Creación del objeto Ingress siguiendo la guía proporicionada de añadirlo a minikube `minikube addons enable ingress`, crear el manifiesto YAML de `ingress.yaml` y finalmente hacer un comando `minikube tunnel` para poder visualizar el resultado por el navegador, para ello debido a que hace falta un "hostname" entonces se usa la solución de `127-0-0-1.nip.io` que nos devolverá la resolución a localhost
+3. Creación del objeto Ingress siguiendo la guía proporicionada de añadirlo a minikube `minikube addons enable ingress`, crear el manifiesto YAML de `ingress.yaml` apuntado a las etiqutas correctasa del servicio y finalmente hacer un comando `minikube tunnel` para poder visualizar el resultado por el navegador, para ello debido a que hace falta un "hostname" entonces se usa la solución de `127-0-0-1.nip.io` que nos devolverá la resolución a localhost
 
 ### Para ello seguir los siguientes pasos:
 

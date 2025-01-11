@@ -9,15 +9,15 @@ Construir los distintos recursos de Kubernetes para generar un clúster, como el
 ```
 
 1. Creación de un PersistentVolume estático en `PersistentVolume.yaml`
-2. Creación de un PersistentVolumeClaim en `PersistentVolumeClaim.yaml`, únicamente para probar las configuraciones para enlazarlo con el PersistentVolume. Este mismo se usará como plantilla en le StatefulSet
-3. Creación del sericio de tipo "Cluster IP" en `Service.yaml` para la comunicación entre el Deployment del la app Todo y del Statefulset
+2. Creación de un PersistentVolumeClaim en `PersistentVolumeClaim.yaml`, únicamente para probar las configuraciones para enlazarlo con el PersistentVolume. Este mismo se usará como plantilla en el StatefulSet
+3. Creación del sericio de tipo "Cluster IP" en `Service.yaml` para la comunicación entre el Deployment del la app "Todo" y del Statefulset
 4. Creación de los confiMap. para esta operación se hizo de 2 formas: 
     - Con un manifiesto YAML para las variables de Postgres `(ConfigMapPostgres.yaml)`
-    - Con comando "create" de kubectel de un fichero `.env.example` para el "todo-app" con el comando: `kubectl create configmap todo-app-variables --from-env-file=.env.example`. 
+    - Con comando "create" de kubectl de un fichero `.env.example` para el "todo-app" con el comando: `kubectl create configmap todo-app-variables --from-env-file=.env.example`. 
 - **NOTA:** en las asiganciones de valores se debe tener en cuenta que los valores de conexión coincidan: "POSTGRES_USER=postgres" y "DB_USER=postgres". Y en la variable HOST del "todo-app" se debe poner el nombre del servicio creado `postgres-svc` que tiene un DNS para la comunicaicón.
 5. Creación del StatefulSet en `StatefulSet.yaml`. Consideraciones: el volumen que se debe mapear debe ser donde se guarda los datos en postgres `mountPath: /var/lib/postgresql/data`. y el `volumeClaimTemplates` debe ser válido para que encaje con un PersistentVolume, se usa el `PersistentVolumeClaim.yaml` como referencia.
 6. Desde dentro del pod ejecutar el script de generación de datos en `docker-entrypoint-initdb.d/todos_db.sql` con el comando `psql -U postgres < todos_db.sql`
-7. Deploy del todo-app en `deploymen-todo-app.yaml` se debe añadir en el deploy la referencia al configmap creado con comanado en el paso "4" `todo-app-variables`
+7. Deploy del todo-app en `deploymen-todo-app.yaml` se debe añadir en el deploy la referencia al configmap `configMapRef` creado con comanado en el paso "4" `todo-app-variables`
 8. Creación del servicio LoadBalancer similar la ejercicio anterior en `00-monolith-in-mem/service`
 9. se sigue la guía de minikube para acceder a la todo-app `minikube tunnel`
 10. Comprobar el funcionamiento dirigiendose al `External-IP` proporcionado por el Loadbalancer a través de un navegador. En este caso: `localhost:3000`
