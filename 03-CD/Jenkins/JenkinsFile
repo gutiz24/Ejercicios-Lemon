@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Audit tools') {
+            steps {
+                sh '''
+                    git version
+                    docker version
+                    node --version
+                    npm version
+                '''
+            }
+        }
+    }
+}
