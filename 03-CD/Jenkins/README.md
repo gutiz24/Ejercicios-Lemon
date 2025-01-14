@@ -19,7 +19,7 @@
 6. Se debe colocar la URL del repo, EJ: `https://github.com/gutiz24/Ejercicios-Lemon.git`
 7. En credencials seleccionamos las anteriores creadas
 8. En este caso se cambia la rama por defecto a `main`
-9. Se especifica el path donde está el archivo `Jenkinsfile`
+9. Se especifica el path donde está el archivo `Jenkinsfile`. EJ: `03-CD/Jenkins/jenkins-resources/JenkinsFile`
 
 
 ### 1. CI/CD de una Java + Gradle - OBLIGATORIO
