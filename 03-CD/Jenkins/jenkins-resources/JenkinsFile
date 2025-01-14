@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        JENKINS_DIRECTORY = '03-CD/Jenkins/jenkins-resources/'
+        JENKINS_DIRECTORY = '03-CD/Jenkins/jenkins-resources/calculator'
     }
 
     stages {
@@ -10,7 +10,6 @@ pipeline {
                 dir("${JENKINS_DIRECTORY}") {
                     sh '''
                         gradle compileJava
-                        ls
                     '''
                 }
             }
