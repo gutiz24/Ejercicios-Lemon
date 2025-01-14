@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                dir(${JENKINS_DIRECTORY}) {
+                dir("${JENKINS_DIRECTORY}") {
                     sh '''
                         gradlew compileJava
                         ls
@@ -18,7 +18,7 @@ pipeline {
 
         stage('Unit Tests') {
             steps {
-                dir(${JENKINS_DIRECTORY}) {
+                dir("${JENKINS_DIRECTORY}") {
                     sh '''
                         gradlew test
                     '''
