@@ -1,3 +1,9 @@
 [submodule "03-CD/Github-Actions-Laboratorio"]
 	path = 03-CD/Github-Actions-Laboratorio
 	url = git@github.com:gutiz24/github-Actions-Laboratorio.git
+[submodule "03-CD/Jenkins-Laboratorio"]
+	path = 03-CD/Jenkins-Laboratorio
+	url = git@github.com:gutiz24/Jenkis-labotatorio.git
+[submodule "03-CD/Gitlab-Laboratorio"]
+	path = 03-CD/Gitlab-Laboratorio
+	url = git@github.com:gutiz24/gitlab-laboratorio.git
