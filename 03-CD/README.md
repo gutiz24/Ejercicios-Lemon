@@ -1,3 +1,16 @@
+> [!NOTE]
+> Los repositorio se pueden acceder como submodulos para más facilidad de la aplicación de los workflows. En cada Repositorio se encuentra la documentación referene en un `README.md` y la realización del ejercicio como tal.
+
+Links a repositorios:
+
+[Jenkins-Laboratorio](https://github.com/gutiz24/Jenkis-labotatorio)
+
+[Gitlab-Laboratorio](https://github.com/gutiz24/gitlab-laboratorio)
+
+[Github-Actions-Laboratorio](https://github.com/gutiz24/github-Actions-Laboratorio)
+
+
+
 # Ejercicios
 
 Para superar el módulo debéis entregar como mínimo:
