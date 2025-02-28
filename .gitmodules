@@ -1,9 +1,0 @@
-[submodule "03-CD/Jenkins-Laboratorio"]
-	path = 03-CD/Jenkins-Laboratorio
-	url = https://github.com/gutiz24/Jenkis-labotatorio
-[submodule "03-CD/Gitlab-Laboratorio"]
-	path = 03-CD/Gitlab-Laboratorio
-	url = https://github.com/gutiz24/gitlab-laboratorio.git
-[submodule "03-CD/Github-Actions-Laboratorio"]
-	path = 03-CD/Github-Actions-Laboratorio
-	url = https://github.com/gutiz24/github-Actions-Laboratorio.git
