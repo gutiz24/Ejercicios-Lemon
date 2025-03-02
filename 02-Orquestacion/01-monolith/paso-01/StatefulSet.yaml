@@ -24,12 +24,7 @@ spec:
         volumeMounts:
         - name: postgresdb
           mountPath: /var/lib/postgresql/data
-  volumeClaimTemplates:
-  - metadata:
-      name: postgresdb
-    spec:
-      storageClassName: monolith-db
-      accessModes: [ "ReadWriteOnce" ]
-      resources:
-        requests:
-          storage: 2Gi
+      volumes:
+        - name: postgresdb
+          persistentVolumeClaim:
+            claimName: postgresdata

@@ -3,7 +3,7 @@ kind: PersistentVolume
 metadata:
   name: pv-postgres
 spec:
-  storageClassName: monolith-db
+  storageClassName: postgres-sc-db
   accessModes:
     - ReadWriteOnce
   capacity:
