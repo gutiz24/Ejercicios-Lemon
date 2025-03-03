@@ -77,8 +77,11 @@ minikube tunnel
     <img src="./img/image2.png" width="50%">
 </p>
 
-4. Comprobar el funcionamiento dirigiendose al `External-IP` del servicio que ahora se le ha proporcionado la dirección `127.0.0.1` y puerto `3000`. La aplicación responde correctamente.
+4. Comprobar el funcionamiento dirigiendose al `External-IP` del servicio. Para eso se ejecuta el comando `kubectl get service` que se ve ahora se le ha proporcionado la dirección `EXTERNAL-IP: 127.0.0.1` y puerto `PORT(S): 3000`. La aplicación responde correctamente dirigiendose a `localhost:3000`.
 
+<p align="center">
+    <img src="./img/image4.png" width="50%">
+</p>
 <p align="center">
     <img src="./img/image3.png" width="50%">
 </p>
